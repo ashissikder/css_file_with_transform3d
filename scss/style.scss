@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+@mixin trans($time) {
+    transition: all linear $time;
+    -webkit-transition: all linear $time;
+    -moz-transition: all linear $time;
+    -ms-transition: all linear $time;
+    -o-transition: all linear $time;
+}
+/* =============
+common css ends
+=============== */ 
+@import url(_main.scss);
